@@ -88,7 +88,7 @@ class hudllogin(object):
         else:
             
             print("Request Live Game")
-            #self.driver.find_element_by_xpath("//*[@id='app']/div/div/div[1]/div/button").click()
+            self.driver.find_element_by_xpath("//*[@id='app']/div/div/div[1]/div/button").click()
             
         #self.driver.close()
         
